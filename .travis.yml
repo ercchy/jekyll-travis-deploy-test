@@ -1,13 +1,10 @@
 language: ruby
-
 rvm:
 - 2.1
 script: bundle exec rake site:deploy
-
 branches:
   only:
   - master
-
 env:
   global:
-    secure: RB7zO0JF2P+8Cgc8c8op8SXHzMtz8CA2t5LhzfwvFDSSM1ycitrxyZRBup3ehQ1pZTbE+H6awnePoIO3+0+4/f7QvYZ3H+jpiBFUSCrvzjWNjwZDvevbOnrbyJs8ZM6DBTyrDdgqu/xIwwJ5bBxe4vozke01ybj7nFXsDxOvUN8=
+    secure: OPwk9OUjEhH56vYkOAVOUXwXGa7WL2KvU+G968TzBaxZuJ9P3ER4Unv037d83flw5aCS18uoP2d2uHeaEreCY/zOUnY2IB0CFJzvJos62uqeyXQO9QiBvOQ502SI2Q/fEtmOb0MzKra9GfhampBwrr+dq5PWQwbIFnb8ZfCIxug=
