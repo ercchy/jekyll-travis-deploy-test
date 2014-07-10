@@ -7,4 +7,4 @@ branches:
   - gh-pages
 env:
   global:
-    secure: Oi9JHHq7Bn1R4BkAFh+UpdAxik7JifjBLts17Eac9ZIQq3zzYGN6P30Zenpy6p7LSUHfvOBk55IbIZf6ME4MtSATj0dWugnbMNnABA8uPQUkmhc2nfztsmtj5cv3hpDS+LJSOHXJi41xwfNGArhinyvHbQvwugDSCPppg8rHtME=
+    secure: RB7zO0JF2P+8Cgc8c8op8SXHzMtz8CA2t5LhzfwvFDSSM1ycitrxyZRBup3ehQ1pZTbE+H6awnePoIO3+0+4/f7QvYZ3H+jpiBFUSCrvzjWNjwZDvevbOnrbyJs8ZM6DBTyrDdgqu/xIwwJ5bBxe4vozke01ybj7nFXsDxOvUN8=
