@@ -14,6 +14,7 @@ branches:
 
 env:
   global:
-    secure: "dyp6YFoX5RkodPqVmz7G3sEvMicPvsSLJdE5l0Lex2Y9v+XBOZyCMGqW25OR4uUs7mO7inMDqJ/GXhHQsa2RGd3KaEzddN/jbuw3hndX+w4tK8TFSr0lMjMjYwQSMnGyS7gtRoE2FcaNmhbetrHenU7YC+/Iah7ZTcRbHbITmEI="
+  - secure: "PISIhkw4E9rLulBdN8rv7fVqF2QpDYXUlgo5HKWCn+spPXitZkfodzn9Tr2Ub5VyyQ8+irHYgzL7m+XNPfSjfjH2kPQ53wHY5KY30PUmo7kv3imcxKhD56hy9JdeW6rJvK6n/V9bhN35IAlSKmdYJcR3mcWJGuwywB8tcvBIQEU="
  # - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
+
 
