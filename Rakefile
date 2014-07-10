@@ -208,7 +208,7 @@ namespace :site do
     check_destination
 
     sh "git checkout #{SOURCE_BRANCH}"
-    Dir.chdir(CONFIG["destination"]) { sh "git fetch origin #{DESTINATION_BRANCH}:#{DESTINATION_BRANCH} && git checkout #{DESTINATION_BRANCH}" }
+    #Dir.chdir(CONFIG["destination"]) { sh "git fetch origin #{DESTINATION_BRANCH}:#{DESTINATION_BRANCH} && git checkout #{DESTINATION_BRANCH}" }
 
     # Generate the site
     sh "bundle exec jekyll build"
