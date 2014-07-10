@@ -4,7 +4,7 @@ rvm:
 script: bundle exec rake site:deploy
 branches:
   only:
-  - master
+  - gh-pages
 env:
   global:
     secure: ANZxjXqlNB2bzYPKjqNsDoy3MGBXg3V+w7GiIV31Yqsn8txKgx/6HDLI0vj3jHfiMQzBXmck88DYllb0ec/Krt0dMkqIOlpgSxXVFo45t90UGaFvFJsdPle613dJYru4weCKSYBORX60zds/cep20Br0KY/A+eS9fVLIO1ufTwg=
