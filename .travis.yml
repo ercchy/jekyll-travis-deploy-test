@@ -5,7 +5,6 @@ script: bundle exec rake site:deploy
 branches:
   only:
   - master
-  - gh-pages
 
 env:
   global:
