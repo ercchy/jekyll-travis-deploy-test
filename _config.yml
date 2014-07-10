@@ -6,12 +6,12 @@ safe: false
 lsi: false
 
 relative_source: ../ercchy.github.io/p2pu-website
-destination: ../ercchy.github.io-pages/p2pu-website-pages
+destination: ../ercchy.github.io/p2pu-website/_site
 
 exclude: [vendor]
 username: ercchy
 repo: p2pu-website
-branch: development
+
 
 title: Peer 2 Peer University
 email: admin@p2pu.org
