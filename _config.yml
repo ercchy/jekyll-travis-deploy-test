@@ -1,4 +1,18 @@
 # Site settings
+encoding: utf-8
+
+# Travis deploy settings
+safe: false
+lsi: false
+
+relative_source: ../ercchy.github.io/p2pu-website
+destination: ../ercchy.github.io-pages/p2pu-website-pages
+
+exclude: [vendor]
+username: ercchy
+repo: p2pu-website
+branch: development
+
 title: Peer 2 Peer University
 email: admin@p2pu.org
 description: "A University for the Web. Built by an open community.
@@ -9,6 +23,7 @@ url: "http://p2pu.org"
 # Build settings
 markdown: kramdown
 permalink: pretty
+
 
 navigation:
 - text: Our work
