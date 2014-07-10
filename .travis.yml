@@ -1,20 +1,10 @@
 language: ruby
-
 rvm:
 - 2.1
-
 script: bundle exec rake site:deploy
-
-# branch whitelist
 branches:
   only:
   - master
-  #- gh-pages     # test the gh-pages branch
-  #- /pages-(.*)/ # test every branch which starts with "pages-"
-
 env:
   global:
-  - secure: "PISIhkw4E9rLulBdN8rv7fVqF2QpDYXUlgo5HKWCn+spPXitZkfodzn9Tr2Ub5VyyQ8+irHYgzL7m+XNPfSjfjH2kPQ53wHY5KY30PUmo7kv3imcxKhD56hy9JdeW6rJvK6n/V9bhN35IAlSKmdYJcR3mcWJGuwywB8tcvBIQEU="
- # - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
-
-
+    secure: ANZxjXqlNB2bzYPKjqNsDoy3MGBXg3V+w7GiIV31Yqsn8txKgx/6HDLI0vj3jHfiMQzBXmck88DYllb0ec/Krt0dMkqIOlpgSxXVFo45t90UGaFvFJsdPle613dJYru4weCKSYBORX60zds/cep20Br0KY/A+eS9fVLIO1ufTwg=

@@ -35,7 +35,7 @@
 			<div class="collapse navbar-collapse" id="nav-links-collapse">
 
 				<ul class="nav navbar-nav navbar-right">
-					{% for link in site.navigation %}
+					{% for link in site.data.navigation %}
 						<li class="{{ active }}{% if link.submenu %} dropdown has-subnav{% endif %}">
 							<a href="{{ link.url|prepend:site.baseurl }}">{{ link.text }}</a>
 						</li>
