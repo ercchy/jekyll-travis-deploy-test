@@ -1,10 +1,13 @@
 language: ruby
+
 rvm:
 - 2.1
 script: bundle exec rake site:deploy
+
 branches:
   only:
-  - gh-pages
+  - master
+
 env:
   global:
     secure: RB7zO0JF2P+8Cgc8c8op8SXHzMtz8CA2t5LhzfwvFDSSM1ycitrxyZRBup3ehQ1pZTbE+H6awnePoIO3+0+4/f7QvYZ3H+jpiBFUSCrvzjWNjwZDvevbOnrbyJs8ZM6DBTyrDdgqu/xIwwJ5bBxe4vozke01ybj7nFXsDxOvUN8=
