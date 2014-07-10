@@ -5,6 +5,7 @@ script: bundle exec rake site:deploy
 branches:
   only:
   - master
+  - gh-pages
 env:
   global:
     - secure: OPwk9OUjEhH56vYkOAVOUXwXGa7WL2KvU+G968TzBaxZuJ9P3ER4Unv037d83flw5aCS18uoP2d2uHeaEreCY/zOUnY2IB0CFJzvJos62uqeyXQO9QiBvOQ502SI2Q/fEtmOb0MzKra9GfhampBwrr+dq5PWQwbIFnb8ZfCIxug=
