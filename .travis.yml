@@ -1,6 +1,6 @@
 language: ruby
 rvm:
-- 2.1
+- 2.1.2
 script: bundle exec rake site:deploy
 branches:
   only:
@@ -8,4 +8,4 @@ branches:
   - gh-pages
 env:
   global:
-  - secure: OPwk9OUjEhH56vYkOAVOUXwXGa7WL2KvU+G968TzBaxZuJ9P3ER4Unv037d83flw5aCS18uoP2d2uHeaEreCY/zOUnY2IB0CFJzvJos62uqeyXQO9QiBvOQ502SI2Q/fEtmOb0MzKra9GfhampBwrr+dq5PWQwbIFnb8ZfCIxug=
+    secure: bPSIpq0hSKqBWmGy0+fY0/LouyA1D1a7X9q4mipDpHI58kc28hjjrWEBiWd4uKuv1TJBUxf41HhXnPk5N94JRZOGttCP35HHAhK8GUbPdKi0qYeKp7zktCSLq/uyMSlpDf6WHHCmgXg01t1jLztSg74agU+79YenjveI0KLY0Ho=
