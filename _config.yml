@@ -5,8 +5,8 @@ encoding: utf-8
 safe: false
 lsi: false
 
-relative_source: ../ercchy.github.io/p2pu-website
-destination: ../ercchy.github.io/p2pu-website/_site
+#relative_source: ../ercchy.github.io/p2pu-website
+destination: http://ercchy.github.io/p2pu-website/
 
 exclude: [vendor]
 username: ercchy

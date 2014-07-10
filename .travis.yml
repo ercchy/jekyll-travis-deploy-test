@@ -6,6 +6,5 @@ branches:
   only:
   - master
   - gh-pages
-env:
-  global:
-    secure: bPSIpq0hSKqBWmGy0+fY0/LouyA1D1a7X9q4mipDpHI58kc28hjjrWEBiWd4uKuv1TJBUxf41HhXnPk5N94JRZOGttCP35HHAhK8GUbPdKi0qYeKp7zktCSLq/uyMSlpDf6WHHCmgXg01t1jLztSg74agU+79YenjveI0KLY0Ho=
+
+secure: "jopM9XQCylMsI+T/W0KIUO+SFT80TFCfHRkQiD8uxvbCBGz5zXLT9cj+6YHnuoFsq5eSisVga3hk5SYKzIBqgJ4zrrK2AHLWCeq1h2NuPRWXMseaASKJv4t21oQOpfgdFEmFbHlzrk6ejwact2lxvHDzXqrjpLHt3vQtruIlTHQ="
