@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Peer 2 Peer University</title>
+    <description>A University for the Web. Built by an open community. LEARNING BY EVERYONE. FOR EVERYONE. ABOUT ALMOST ANYTHING. COMPLETELY FREE.</description>
+    <link>http://p2pu.org/p2pu-website//</link>
+    <atom:link href="http://p2pu.org/p2pu-website//feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Badges</title>
+        <description>&lt;p&gt;Something great about Badges, bcs it rocks!
+and not to mention that it rules&lt;/p&gt;
+</description>
+        <pubDate>Tue, 10 Jun 2014 00:00:00 +0200</pubDate>
+        <link>http://p2pu.org/p2pu-website//projects/2014/06/10/badges/</link>
+        <guid isPermaLink="true">http://p2pu.org/p2pu-website//projects/2014/06/10/badges/</guid>
+      </item>
+    
+      <item>
+        <title>Course in a Box</title>
+        <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tristique dignissim magna,
+dictum rhoncus felis eleifend et. Integer fermentum eros eget elit dapibus,
+nec hendrerit dolor iaculis. Etiam accumsan rutrum sapien. Ut ac lobortis lectus,
+in mattis arcu. Proin et lacinia justo. Duis adipiscing dui neque, a iaculis nulla
+facilisis sed. Donec nulla nisl, vulputate eget elementum sit amet, placerat ac urna.
+Quisque posuere felis vel sollicitudin gravida. Nam dolor sem, scelerisque in tellus et,
+vulputate interdum justo. Sed vitae leo velit.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 10 Apr 2014 00:00:00 +0200</pubDate>
+        <link>http://p2pu.org/p2pu-website//projects/2014/04/10/course_in_a_box/</link>
+        <guid isPermaLink="true">http://p2pu.org/p2pu-website//projects/2014/04/10/course_in_a_box/</guid>
+      </item>
+    
+      <item>
+        <title>Play With Your Music</title>
+        <description>&lt;p&gt;Way awesome musicians site&lt;/p&gt;
+
+&lt;p&gt;yep!&lt;/p&gt;
+</description>
+        <pubDate>Mon, 10 Jun 2013 00:00:00 +0200</pubDate>
+        <link>http://p2pu.org/p2pu-website//projects/2013/06/10/playwithyourmusic/</link>
+        <guid isPermaLink="true">http://p2pu.org/p2pu-website//projects/2013/06/10/playwithyourmusic/</guid>
+      </item>
+    
+  </channel>
+</rss>
