@@ -8,4 +8,4 @@ env:
   global:
   - secure: "VVafc1O7VVkNu8XHUf+MXSyl7LKT1npHZrfzViyBI0FbwqRSZfAyw1FAjdnwUAWGsBStDa4dACDhOszWSMj+aTpD0GJu0EFI7k/MM1CT/NjajI1TCpJ5JzzgApGi9tN4NBYTjby39oX6/uyfKOCtptX4bJTDieXdE7j4eoXxCLs="
   - secure: "J485FpH9xvc50q3cmU8bskhqef5SnXFMzFSVKXgb4F2sZa5uc9xHU3119oHtur7SyPonQ3SLsPBy5Y4UwpSMWbOPezoozcN3acsBzPxdBWzYd0FIYsZ4OpKSyuseZWGlRxOz/yMXtspimMMFB+vR8w5g2WD9a+RwFFOa8g28ux8="
-  - secure: "Fg02IBEJ4iNwq9ArxgsJPPlCzPofBzgrIORQ4WFh8B39eiA/ZDFTkuXT3ocmmtEqxX/V+yW/BMnjkseplhTSdOgTkGAyClHkdxSkUcqyHRop0rVylOh8ML0UQGTNmp7Yx0ql8yAotPeYQoWb8tB35DqKl/OvMTYHLKD9JyRZUGg="
+  - secure: "e7u3JZZhM+qvuolyoYX4uyYuUludtjt/zscPjO9/pe+xSjmLWW0xw7oIDW08L6WdOceACQVNVVphy0sdVopIt5MaSaBVFYli2R/yHJKKSd0CBtaULFmZeVArkoBvEh031clsdDNWNamzXFFLJ7wcgXf1T4CkG0mfS+ft5SGwoh8="
