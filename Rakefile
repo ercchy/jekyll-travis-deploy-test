@@ -88,11 +88,10 @@ end
 
 def check_destination
   unless Dir.exist? CONFIG["destination"]
-    sh "git clone https://#{ENV['GIT_NAME']}:#{ENV['GH_TOKEN']}@github.com/#{USERNAME}/#{REPO}.git #{CONFIG["destination"]}"
+    #sh "git clone https://#{ENV['GIT_NAME']}:#{ENV['GH_TOKEN']}@github.com/#{USERNAME}/#{REPO}.git #{CONFIG["destination"]}"
     # git@github.com:ercchy/jekyll-travis-deploy-test.git
     # https://github.com/ercchy/jekyll-travis-deploy-test.git
-    #sh "git clone https://#{ENV['GIT_NAME']}:#{ENV['GH_TOKEN']}@github.com/#{USERNAME}/#{REPO}
-    #.git #{CONFIG["destination"]}"
+    sh "git clone git@github.com:#{USERNAME}/#{REPO}.git #{CONFIG["destination"]}"
   end
 end
 
@@ -213,7 +212,7 @@ namespace :site do
     check_destination
 
     sh "git checkout #{SOURCE_BRANCH}"
-    #Dir.chdir(CONFIG["destination"]) { sh "git fetch origin #{DESTINATION_BRANCH}:#{DESTINATION_BRANCH} && git checkout #{DESTINATION_BRANCH}" }
+    Dir.chdir(CONFIG["destination"]) { sh "git fetch origin #{DESTINATION_BRANCH}:#{DESTINATION_BRANCH} && git checkout #{DESTINATION_BRANCH}" }
 
     # Generate the site
     sh "bundle exec jekyll build"
@@ -221,9 +220,10 @@ namespace :site do
     # Commit and push to github
     sha = `git log`.match(/[a-z0-9]{40}/)[0]
     Dir.chdir(CONFIG["destination"]) do
+      sh "git fetch"
       sh "git add --all ."
       sh "git commit -m 'Updating to #{USERNAME}/#{REPO}@#{sha}.'"
-      sh "git push -u origin #{DESTINATION_BRANCH}"
+      sh "git push origin #{DESTINATION_BRANCH}"
       puts "Pushed updated branch #{DESTINATION_BRANCH} to GitHub Pages"
     end
   end
