@@ -6,7 +6,7 @@ safe: false
 lsi: false
 
 relative_source: ../jekyll-travis-deploy-test
-destination: ../jekyll-travis-deploy-test
+destination: ../jekyll-travis-deploy-test-pages
 
 exclude: [vendor]
 username: ercchy
