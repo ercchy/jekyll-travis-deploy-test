@@ -1,11 +1,11 @@
 language: ruby
 rvm:
 - 2.1.2
-
 install:
-  - bundle install
-
+- bundle install
 script: bundle exec rake site:deploy
-
 env:
-  secure: Iwa8YVK7g6DetuMaNPw1b0MLX//VIXEFIZmjWNWxFk+lqvbkiap+Jjgg/pCIxn4F40mlC+NLrfmq3j+KgedXNjKwHVaMrL/t6PHQtgmOmdLfjnI9KR5bpIXlhP24M3DI2hsF/jIXggRpBEDwD8ivtJ0XxVpQOi+vTn0GWC9/mMA=
+  global:
+  - secure: "VVafc1O7VVkNu8XHUf+MXSyl7LKT1npHZrfzViyBI0FbwqRSZfAyw1FAjdnwUAWGsBStDa4dACDhOszWSMj+aTpD0GJu0EFI7k/MM1CT/NjajI1TCpJ5JzzgApGi9tN4NBYTjby39oX6/uyfKOCtptX4bJTDieXdE7j4eoXxCLs="
+  - secure: "J485FpH9xvc50q3cmU8bskhqef5SnXFMzFSVKXgb4F2sZa5uc9xHU3119oHtur7SyPonQ3SLsPBy5Y4UwpSMWbOPezoozcN3acsBzPxdBWzYd0FIYsZ4OpKSyuseZWGlRxOz/yMXtspimMMFB+vR8w5g2WD9a+RwFFOa8g28ux8="
+  - secure: "Fg02IBEJ4iNwq9ArxgsJPPlCzPofBzgrIORQ4WFh8B39eiA/ZDFTkuXT3ocmmtEqxX/V+yW/BMnjkseplhTSdOgTkGAyClHkdxSkUcqyHRop0rVylOh8ML0UQGTNmp7Yx0ql8yAotPeYQoWb8tB35DqKl/OvMTYHLKD9JyRZUGg="
