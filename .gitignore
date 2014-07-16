@@ -1,8 +1,0 @@
-_site
-.sass-cache
-.idea/
-vendor
-*.gem
-*.rbc
-.bundle
-Gemfile.lock
