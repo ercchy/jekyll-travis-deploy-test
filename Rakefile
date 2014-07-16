@@ -89,6 +89,10 @@ end
 def check_destination
   unless Dir.exist? CONFIG["destination"]
     sh "git clone https://#{ENV['GIT_NAME']}:#{ENV['GH_TOKEN']}@github.com/#{USERNAME}/#{REPO}.git #{CONFIG["destination"]}"
+    # git@github.com:ercchy/jekyll-travis-deploy-test.git
+    # https://github.com/ercchy/jekyll-travis-deploy-test.git
+    #sh "git clone https://#{ENV['GIT_NAME']}:#{ENV['GH_TOKEN']}@github.com/#{USERNAME}/#{REPO}
+    #.git #{CONFIG["destination"]}"
   end
 end
 

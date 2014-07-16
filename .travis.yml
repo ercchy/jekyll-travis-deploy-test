@@ -8,5 +8,4 @@ install:
 script: bundle exec rake site:deploy
 
 env:
-  global:
-    secure: Iwa8YVK7g6DetuMaNPw1b0MLX//VIXEFIZmjWNWxFk+lqvbkiap+Jjgg/pCIxn4F40mlC+NLrfmq3j+KgedXNjKwHVaMrL/t6PHQtgmOmdLfjnI9KR5bpIXlhP24M3DI2hsF/jIXggRpBEDwD8ivtJ0XxVpQOi+vTn0GWC9/mMA=
+  secure: Iwa8YVK7g6DetuMaNPw1b0MLX//VIXEFIZmjWNWxFk+lqvbkiap+Jjgg/pCIxn4F40mlC+NLrfmq3j+KgedXNjKwHVaMrL/t6PHQtgmOmdLfjnI9KR5bpIXlhP24M3DI2hsF/jIXggRpBEDwD8ivtJ0XxVpQOi+vTn0GWC9/mMA=
